@@ -23,9 +23,12 @@ body {
 .site-nav .phone {
     color:#757575 ;
 }
-.site-nav .phone:hover
+.site-nav .phone:hover,
 .site-nav .phone:focus {
     color:#2196F3 ;
+}
+.phone > .site-nav {
+    color: #757575;
 }
 /* цвет*/
 /* ctr slesh */
