@@ -1,0 +1,31 @@
+
+body { 
+    background: #E5E5E5
+    color:#212121
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list {
+     list-style: none; 
+}
+
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.section-title {
+    color: #757575;
+}
+.site-nav .phone {
+    color:#757575 ;
+}
+.site-nav .phone:hover
+.site-nav .phone:focus {
+    color:#2196F3 ;
+}
+/* цвет*/
+/* ctr slesh */
