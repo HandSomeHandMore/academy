@@ -69,3 +69,11 @@ h1,h2,h3 {
     border: 4px solid black;
 }
 
+/*Ховер на меню*/
+/*.button-menu.list .button {
+    color: var(--secondary-button-color)
+}
+.button-menu.list .button:hover,
+.button-menu.list .button:focus {
+    color:var(--focus-color);
+}*/
