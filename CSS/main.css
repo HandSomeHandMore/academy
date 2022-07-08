@@ -116,7 +116,7 @@ h1,h2,h3 {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-line-height: 116%;
+text-align: center;
 Letter-spacing: 6%;
 }
 /* цвет*/
@@ -149,6 +149,9 @@ Letter-spacing: 6%;
     padding: 12px 24px;
     display: inline-block;
     border: 4px solid black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62
 }
 
 /*Заголовок 2 */
@@ -188,15 +191,6 @@ Letter-spacing: 6%;
     font-size: 18px;
     line-height: 2;
 }
-
-.button-menu .button {
-    color: #2196f3;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62
-}
-
-
 /*Ховер на меню*/
 /*.button-menu.list .button {
     color: var(--secondary-button-color)
