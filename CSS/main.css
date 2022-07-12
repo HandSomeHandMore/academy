@@ -55,6 +55,8 @@ h4  {
 
 .headerbutton {
     letter-spacing: 0.06em;
+    text-align: center;
+    padding-top: 180px;
 }
 h5 { letter-spacing: 0.06em;
 
@@ -137,7 +139,7 @@ h1,h2,h3 {
     line-height: 1.36;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 45px;
 }
 
 /* Центральная кнопка */
@@ -145,6 +147,7 @@ h1,h2,h3 {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 220px;
 
     color: var(--primery-white-color);
     background-color: var(--focus-color);
@@ -258,13 +261,35 @@ h1,h2,h3 {
     text-decoration: none;
 }
 
+/* Отступы между блоков*/
 .container {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     letter-spacing: 0.02em;
 }
+.container.one {
+    letter-spacing: 0.03em;
+    margin-bottom: 110px;
+    margin-top: 0px;
 }
+.container.two {
+margin-top: 0px;
+margin-bottom: 190px;
+}
+.container.three {
+    margin-top: 0px;
+    margin-bottom: 95px;
+}
+.container.four {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container.five {
+    margin-top: 0px;
+    margin-bottom: 50px; 
+}
+
 /*
 .box {
     border: 10px solid black;
