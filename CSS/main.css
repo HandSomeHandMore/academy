@@ -240,14 +240,25 @@ img {
 /* цвет*/
 /* ctr slesh */
 /* Button */
-.button-menu .button {
+.button-menu .butmenu {
     color: var(--primery-white-color);
     background-color: var(--focus-color);
-    font-size: 24px;
+    
+
+    /*font-size: 24px;
     text-decoration: none;
     padding: 6px 22px;
-    display: inline-block;
-    border: 4px solid black;
+    border: 4px solid black;*/
+}
+.button-menu {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-menu .butmenu:not(:last-child) {
+    margin-right: 10px;
 }
 
 /*Button кнопки на второй странице*/
@@ -285,6 +296,18 @@ img {
     font-size: 16px;
     line-height: 1.18;
 }
+.workers {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}
+.workers .itemwork:not(:last-child) {
+    margin-right: 30px;
+}
+.workers .itemwork {
+    margin-bottom: 100px;
+}
+
 /*ПОДВАЛ */
 .adress-footer {
     color: var(--white);
@@ -351,6 +374,7 @@ img {
 .container.two {
 margin-top: 0px;
 margin-bottom: 190px;
+
 }
 /*.container.three {
     margin-top: 0px;
@@ -428,4 +452,19 @@ margin-bottom: 190px;
 }
 .blocktext .item {
     width: 285px;
+}
+
+.exempal {
+    display: block;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Размер с помощью калькулятора */
+.exempal .itemexp {
+    width:calc((100%-60px)/3);
+}
+
+.exempal .itemexp:not(:last-child) {
+    margin-right: 30px;
 }
