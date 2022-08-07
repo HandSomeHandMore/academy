@@ -40,10 +40,20 @@ footer {
 }
 
 .board {
-    background-color: var(--primery-text-color);
     padding-top: 0px;
     padding-bottom: 0px;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:#2F303A ;
 }
+
 
 /* Убрать точки со списка*/
 .list {
@@ -71,7 +81,8 @@ h4  {
 .headerbutton {
     letter-spacing: 0.06em;
     text-align: center;
-    padding-top: 180px;
+    padding-top: 165px;
+    
 }
 h5 { letter-spacing: 0.06em;
 }
@@ -146,6 +157,27 @@ text-decoration: none;
     text-decoration: none;
     padding-top: 0px;
     margin: 0px;
+}
+
+.workers__section-title {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    padding-top: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.services__section-title {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    padding-top: 0px;
+    margin: 0px;
+    text-align: center;
 }
 
 /*.site-nav .phone {
@@ -295,6 +327,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
 }
 .workers {
     display: block;
@@ -306,8 +339,17 @@ img {
 }
 .workers__itemwork {
     margin-bottom: 100px;
+    width:270px;
+    height:368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
 }
 
+.partner {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}
 /*ПОДВАЛ */
 .adress-footer {
     color: var(--white);
@@ -335,6 +377,7 @@ img {
     line-height: 2;
     Letter-spacing: 0.06em;
     text-decoration: none;
+    text-align: center;
 }
 
 .services__link {
@@ -365,6 +408,8 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container.benefits {
     letter-spacing: 0.03em;
